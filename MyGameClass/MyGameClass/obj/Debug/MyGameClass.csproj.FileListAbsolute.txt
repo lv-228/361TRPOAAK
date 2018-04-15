@@ -1,0 +1,6 @@
+C:\Второй стол\ООП C#\методичка финальная\MyGameClass\MyGameClass\bin\Debug\MyGameClass.exe.config
+C:\Второй стол\ООП C#\методичка финальная\MyGameClass\MyGameClass\bin\Debug\MyGameClass.exe
+C:\Второй стол\ООП C#\методичка финальная\MyGameClass\MyGameClass\bin\Debug\MyGameClass.pdb
+C:\Второй стол\ООП C#\методичка финальная\MyGameClass\MyGameClass\obj\Debug\MyGameClass.csprojResolveAssemblyReference.cache
+C:\Второй стол\ООП C#\методичка финальная\MyGameClass\MyGameClass\obj\Debug\MyGameClass.exe
+C:\Второй стол\ООП C#\методичка финальная\MyGameClass\MyGameClass\obj\Debug\MyGameClass.pdb

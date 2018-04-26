@@ -6,23 +6,18 @@ using System.Threading.Tasks;
 
 namespace MyGameClass
 {
-    class Game
+    partial class Game
     {
-        public string name;
-        public string genre;
-        public int ageLimit;
-        public int devCost;
-        static string owner;
 
         public void About()
         {
-            Console.WriteLine("Название игры: {0} в жанре: {1} ограничения по возрасту {2} владелец {3}", name, genre,ageLimit,owner);
+            Console.WriteLine("Название игры: {0} в жанре: {1} ограничения по возрасту {2} владелец {3}", gameName, gameGenre,gameAgeLimit,gameOwner);
         }
 
         static Game()
         {
             Console.WriteLine("Статический конструктор сработал");
-            owner = "Blizzard";
+            gameOwner = "Blizzard";
         }
 
         //Сцепление конструкторов
@@ -40,18 +35,16 @@ namespace MyGameClass
         {
         }
 
-        public Game(string name, int ageLimit, string genre)
+        public Game(string newname, int ageLimit, string newgenre)
         {
-            this.name = name;
-            this.ageLimit = ageLimit;
-            this.genre = genre;
+            name = newname;
+            gameAgeLimit = ageLimit;
+            genre = newgenre;
         }
 
         public static void newDeveloper(string newOwner)
         {
-            owner = newOwner;
+            gameOwner = newOwner;
         }
-
-
     }
 }
